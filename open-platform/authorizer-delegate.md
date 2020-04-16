@@ -25,7 +25,7 @@ $miniProgram = $openPlatform->miniProgram(string $appId, string $refreshToken);
 
 > $appId 为授权方公众号 APPID，非开放平台第三方平台 APPID
 >
-> $refreshToken 为授权方的 refresh_token，可通过 [获取授权方授权信息](#) 接口获得。
+> $refreshToken 为授权方的 refresh_token，★必须传★。可通过 [获取授权方授权信息](./index.md#获取授权方的帐号基本信息) 接口获得。
 
 ### 帮助授权方管理开放平台账号
 
